@@ -8,6 +8,7 @@ module AirbrakeJets
         c.project_key = ENV["AIRBRAKE_PROJECT_KEY"]
         c.environment = Jets.env.to_s
         c.ignore_environments = %w(development test cucumber)
+        c.root_directory = Jets.root.to_s
       end
     end
 
