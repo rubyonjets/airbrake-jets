@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    airbrake-jets (0.3.0)
+    airbrake-jets (0.4.0)
       airbrake-ruby
 
 GEM

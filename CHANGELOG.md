@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 This project *loosely tries* to adhere to [Semantic Versioning](http://semver.org/), even before v1.0.
 
+## [0.4.0]
+- AIRBRAKE_IGNORE_ENVIRONMENTS setting
+- set root_directory to nil
+- use notify_sync for lambda
+
 ## [0.3.0]
 - add airbrake-ruby gem dependency
 
