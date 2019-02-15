@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 This project *loosely tries* to adhere to [Semantic Versioning](http://semver.org/), even before v1.0.
 
+## [0.3.0]
+- add airbrake-ruby gem dependency
+
 ## [0.2.0]
 - pushing right version
 
