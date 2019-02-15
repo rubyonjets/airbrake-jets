@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "airbrake_jets/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "airbrake_jets"
+  spec.name          = "airbrake-jets"
   spec.version       = AirbrakeJets::VERSION
   spec.authors       = ["Tung Nguyen"]
   spec.email         = ["tongueroo@gmail.com"]
