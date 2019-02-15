@@ -14,7 +14,7 @@ module AirbrakeJets
     end
 
     on_exception 'airbrake.capture' do |exception|
-      Airbrake.notify(exception)
+      Airbrake.notify_sync(exception) # use sync or Lambda process goes away before request is completed
     end
   end
 end
