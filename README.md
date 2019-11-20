@@ -1,5 +1,7 @@
 # Airbrake Jets
 
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
 [![Gem Version](https://img.shields.io/gem/v/airbrake-jets.svg)](https://rubygems.org/gems/airbrake-jets)
 
 [Airbrake](https://airbrake.io): Application monitoring for your entire stack.
