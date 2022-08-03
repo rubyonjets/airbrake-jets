@@ -5,6 +5,7 @@ This project *loosely tries* to adhere to [Semantic Versioning](http://semver.or
 
 ## [0.5.0]
 - AIRBRAKE_ROOT_DIRECTORY setting
+- AIRBRAKE_ENVIRONMENT setting
 
 ## [0.4.0]
 - AIRBRAKE_IGNORE_ENVIRONMENTS setting
