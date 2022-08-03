@@ -6,10 +6,10 @@ module AirbrakeJets
       Airbrake.configure do |c|
         c.project_id = ENV["AIRBRAKE_PROJECT_ID"]
         c.project_key = ENV["AIRBRAKE_PROJECT_KEY"]
-        c.environment = Jets.env.to_s
+        c.environment = ENV["AIRBRAKE_ENVIRONMENT"] || Jets.env.to_s
         ignore_environments = ENV["AIRBRAKE_IGNORE_ENVIRONMENTS"]
         c.ignore_environments = ignore_environments ? ignore_environments.split(' ') : %w(test cucumber)
-        c.root_directory = nil # to bypass Airbrake::Filters
+        c.root_directory = ENV["AIRBRAKE_ROOT_DIRECTORY"] # set to nil to bypass Airbrake::Filters
       end
     end
 
